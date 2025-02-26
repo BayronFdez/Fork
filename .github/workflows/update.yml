@@ -34,4 +34,4 @@ jobs:
           git config --global user.email "convocatorias-bot@example.com"  # Configura el correo del bot
           git config --global user.name "convocatorias-bot"  # Configura el nombre del bot
           git add -A  # Agrega todos los cambios
-          git diff --quiet && git diff --staged --quiet || (git commit -m "[ci] $(date -d 'yesterday' +%Y-%m-%d)" && git push -q "https://$GH_TOKEN@github.com/tu_usuario/tu_repositorio.git" master)  # Hace commit si hay cambios
+          git diff --quiet && git diff --staged --quiet || (git commit -m "[ci] $(date -d 'yesterday' +%Y-%m-%d)" && git push -q "https://$GH_TOKEN@github.com/BayronFdez/Fork.git" master)  # Hace commit si hay cambios
